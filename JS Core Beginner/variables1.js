@@ -1,6 +1,6 @@
 "use strict";
 
-function testScope() {
+function test() {
     {
         
         var varInsideBlock = "varInside";
@@ -28,4 +28,4 @@ function testScope() {
         console.error("constInsideBlock is not defined");
     }
 }
-testScope();
+test();
