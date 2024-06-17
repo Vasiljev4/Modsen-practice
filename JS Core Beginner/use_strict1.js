@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 function factorial(n) {
     if (n < 0) {
