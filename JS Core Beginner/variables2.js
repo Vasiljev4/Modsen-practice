@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 function test() {
     var x = 10;
