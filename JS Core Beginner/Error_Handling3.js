@@ -1,4 +1,4 @@
-function opa(num1, num2) {
+function ZeroError(num1, num2) {
     try {
         if (num2 === 0) {
             throw new Error("Ошибка: Второе число не должно быть равно нулю.");
@@ -11,6 +11,5 @@ function opa(num1, num2) {
     }
 }
 
-// Пример использования:
-opa(10, 2);  5
-opa(10, 0); // Ошибка: Второе число не должно быть равно нулю.
+ZeroError(10, 2);
+ZeroError(10, 0); 
