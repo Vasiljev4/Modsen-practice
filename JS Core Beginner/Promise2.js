@@ -3,7 +3,7 @@ function fetchUrls(urls) {
     return Promise.all(promises)
         .then(results => {
             console.log("Все URL загружены:");
-            results.forEach((result, index) => {
+            results.forEach((result, index) => { 
                 console.log(`URL ${index + 1}:`, result);
             });
         })
