@@ -13,8 +13,6 @@ async function fetchDataFromRemoteServer(url) {
   }
 }
 
-const apiUrl = 'https://api.example.com/data';
-
 fetchDataFromRemoteServer(apiUrl)
   .then(data => console.log('Полученные данные:', data))
   .catch(error => console.error('Ошибка:', error));
