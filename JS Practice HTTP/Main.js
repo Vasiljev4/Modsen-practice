@@ -27,4 +27,5 @@ console.log("Код состояния:", statusCode);
 3) Статус 3хх: https://httpstat.us/304 (304)
 4) Статус 4хх: https://jsonplaceholder.typicode.com/invalid-url (404)
 5) Статус 5хх: https://httpstat.us/500 (500)
+Пруфы получения статусов прикреплены скрином в папке JS Practice HTTP
 */
